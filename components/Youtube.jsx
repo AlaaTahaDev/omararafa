@@ -4,7 +4,7 @@ export const Youtube = () => {
   return (
     <div className="container mx-auto">
         <h2 className="section-title mb-8 mt-12 xl:mb-16 text-center mx-auto">
-        فيديوهاتنا علي اليوتيوب
+        اليوتيوب
         </h2>
       <div className="flex flex-col md:flex-row md:space-x-4">
         <div className="md:w-1/2 space-y-4">
