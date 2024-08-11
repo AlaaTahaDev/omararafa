@@ -15,17 +15,17 @@ const data = [
   {
     image: "/exam.svg",
     title: 'الامتحانات',
-    subTitle: 'Residing in the deepest ocean trenches, the Abyssal Spirejaw has a translucent, spiral-shaped body, culminating in a jaw that resembles twisted spires, allowing it to snag and swallow unsuspecting prey.',
+    subTitle: 'هنحل امتحانات بشكل مستمر مع تدريبات  علي شكل امتحانات اخر السنه عشان تكون قادر علي حلها بسهوله',
   },
   {
     image: "/review.svg",
-    title: 'Abyssal Spirejaw',
-    subTitle: 'Residing in the deepest ocean trenches, the Abyssal Spirejaw has a translucent, spiral-shaped body, culminating in a jaw that resembles twisted spires, allowing it to snag and swallow unsuspecting prey.',
+    title: 'المرجعات النهائيه',
+    subTitle: 'هنعمل مرجعات نهائيه بشكل مكثف  عن المنهج والنحو والبلاغه ',
   },
   {
     image: "/follow.svg",
-    title: 'Abyssal Spirejaw',
-    subTitle: 'Residing in the deepest ocean trenches, the Abyssal Spirejaw has a translucent, spiral-shaped body, culminating in a jaw that resembles twisted spires, allowing it to snag and swallow unsuspecting prey.',
+    title: 'المذكرات',
+    subTitle: 'هنعملك مذكرة فيه الخلاصه عشان تكون مميز عن غيرك من الطلاب',
   },
 ];
 
@@ -67,7 +67,7 @@ function ScrollSection() {
   return (
     <section className="scroll-section-outer">
       <div ref={triggerRef}>
-        <div ref={sectionRef} className="scroll-section-inner flex bg-red-100 dark:bg-transparent">
+        <div ref={sectionRef} className="scroll-section-inner flex">
           {data.map((item, index) => (
             <div key={index} className="scroll-section container flex flex-col items-center justify-center p-8 text-center">
               <Image
