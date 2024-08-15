@@ -53,7 +53,7 @@ const Hero = () => {
                   <RiYoutubeFill size={18} />
                 </Button>
               </Link>
-              <Link href="https://www.youtube.com/@omararafa-arabic">
+              <Link href="https://www.tiktok.com/@omararafa95">
                 <Button variant="secondary" className="gap-x-2">
                   التيك توك
                   <RiTiktokFill size={18} />
